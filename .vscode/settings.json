@@ -1,0 +1,18 @@
+{
+	"editor.formatOnSave": true,
+	"liveSassCompile.settings.generateMap": false,
+	"liveSassCompile.settings.showOutputWindow": true,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"extensionName": ".css",
+			"savePath": "/css"
+		}
+	],
+	"ecsstractor_port.destination": "tab",
+	"ecsstractor_port.empty_line_before_nested_selector": false,
+	"ecsstractor_port.indentation": "\t",
+	"ecsstractor_port.bem_nesting": true,
+	"ecsstractor_port.add_comment": false,
+	"editor.insertSpaces": false,
+}

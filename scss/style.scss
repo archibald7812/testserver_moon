@@ -1,0 +1,78 @@
+@import "clear.scss";
+//#color = rgb(0, 173, 179);
+body {
+	font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+	flex-direction: column;
+	display: flex;
+	height: 100%;
+}
+.content {
+	flex: 1 1 auto;
+}
+.container {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+
+.header {
+	&__row {
+		background-color: rgba(44, 3, 71, 0.7);
+		min-height: 80px;
+		display: flex;
+		padding-top: 20px;
+	}
+	h1 {
+		font-size: 30px;
+		text-align: center;
+		width: 40%;
+		color: rgb(163, 244, 255);
+		a:visited {
+			color: rgb(163, 244, 255);
+		}
+	}
+	article {
+		flex: auto;
+		text-align: center;
+		font-size: 30px;
+		color: rgb(163, 244, 255);
+	}
+}
+
+.calc {
+	&__row {
+		padding-top: 50px;
+		display: flex;
+		min-height: 320px;
+	}
+	&__date {
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		width: 40%;
+		font-size: 20px;
+		form {
+			display: flex;
+		}
+	}
+	&__today {
+		p {
+			font-size: 20px;
+			margin: 10px 0;
+			text-align: left;
+		}
+	}
+}
+.footer {
+	&__row {
+		background-color: rgb(192, 192, 192);
+		display: flex;
+		justify-content: center;
+		min-height: 50px;
+		align-items: center;
+	}
+	&__text {
+		font-size: 16px;
+	}
+}
